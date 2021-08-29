@@ -1,73 +1,78 @@
-# Project Overview
+# Finding Books
 
-## Project Name
-
-The name of your project.
-
-## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+#### An app that helps find a book by title, author or publisher.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://openlibrary.org/dev/docs/api/search.json
+
+{
+"title": "Developer Center / APIs / Search API",
+"m": "edit",
+"key": "/dev/docs/api/search",
+"type": {
+"key": "/type/page"
+},
+"latest_revision": 8,
+"revision": 8,
+"created": {
+"type": "/type/datetime",
+"value": "2013-02-27T09:44:26.891861"
+},
+"last_modified": {
+"type": "/type/datetime",
+"value": "2021-08-02T21:23:43.063747"
+}
+}
 
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
-### MVP/PostMVP
+### MVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+- Allows users to search for a book by title or author
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
+### POST MVP
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-
-#### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
+- Allows users to see the book reviews
+- Lets users know where can the book be purchased
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+| Day          | Deliverable                                        | Status     |
+| ------------ | -------------------------------------------------- | ---------- |
+| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
+| August 30    | Project Approval                                   | Incomplete |
+| August 30-31 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
+| September 1  | Pseudocode / actual code/ MVP/ Flexbox             | Incomplete |
+| September 2  | Initial Clickable Model/ MVP                       | Incomplete |
+| September 3  | Presentations                                      | Incomplete |
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+Include a full list of features that have been prioritized based on the `Time and Importance` Matrix. Link this image in a similar manner to your wireframes
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Component                             | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| HTML structure                        |    H     |     1.5hrs     |      hrs      |     hrs     |
+| Responsive API data                   |    H     |      3hrs      |      hrs      |     hrs     |
+| CSS                                   |    H     |      4hrs      |      hrs      |     hrs     |
+| Functional search bar                 |    H     |      2hrs      |      hrs      |     hrs     |
+| Functional search button              |    H     |      2hrs      |      hrs      |     hrs     |
+| Media query                           |    H     |      3hrs      |      hrs      |     hrs     |
+| Display books, book title, book cover |    H     |      3hrs      |      hrs      |     hrs     |
+| Responsive new book results           |    H     |     1.5hrs     |      hrs      |     hrs     |
+| Total                                 |    H     |      hrs       |      hrs      |     hrs     |
+| Total                                 |    H     |      3hrs      |      hrs      |     hrs     |
+| Total                                 |    H     |      3hrs      |      hrs      |     hrs     |
+| Total                                 |    H     |     20hrs      |      hrs      |     hrs     |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
 ```
 function reverse(string) {
@@ -76,4 +81,5 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+Use this section to document what changes were made and the reasoning behind those changes.
