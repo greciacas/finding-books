@@ -1,33 +1,24 @@
 # Finding Books
 
-#### An app that helps find a book by title, author or publisher.
+#### An app that helps find a book by title, author and more.
 
 ## API and Data Sample
 
-https://openlibrary.org/dev/docs/api/search.json
+https://openlibrary.org/search.json
 
 {
-"title": "Developer Center / APIs / Search API",
-"m": "edit",
-"key": "/dev/docs/api/search",
-"type": {
-"key": "/type/page"
-},
-"latest_revision": 8,
-"revision": 8,
-"created": {
-"type": "/type/datetime",
-"value": "2013-02-27T09:44:26.891861"
-},
-"last_modified": {
-"type": "/type/datetime",
-"value": "2021-08-02T21:23:43.063747"
-}
+"numFound": 0,
+"start": 0,
+"numFoundExact": true,
+"docs": [],
+"num_found": 0,
+"q": "",
+"offset": null
 }
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![](images/Screen%20Shot%202021-08-28%20at%206.50.29%20PM.png)
 
 ### MVP
 
