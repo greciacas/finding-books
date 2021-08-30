@@ -23,7 +23,6 @@ https://openlibrary.org/search.json
 ### MVP
 
 - Allows users to search for a book by title, author or publisher
-- Responsive design
 
 ### POST MVP
 
