@@ -27,18 +27,18 @@ https://openlibrary.org/search.json
 ### POST MVP
 
 - Allows users to see the book reviews
-- Lets users know where can the book be purchased
+- Lets users know if the book is accessible from a library near them or where can the book be purchased
 
 ## Project Schedule
 
-| Day          | Deliverable                                        | Status     |
-| ------------ | -------------------------------------------------- | ---------- |
-| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| August 30    | Project Approval                                   | Incomplete |
-| August 30-31 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| September 1  | Pseudocode / actual code/ MVP/ Flexbox             | Incomplete |
-| September 2  | Initial Clickable Model/ MVP                       | Incomplete |
-| September 3  | Presentations                                      | Incomplete |
+| Day          | Deliverable                                            | Status     |
+| ------------ | ------------------------------------------------------ | ---------- |
+| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Incomplete |
+| August 30    | Project Approval                                       | Incomplete |
+| August 30-31 | Core Application Structure (HTML, CSS, etc.)           | Incomplete |
+| September 1  | Pseudocode / actual code/ MVP/ Initial Clickable Model | Incomplete |
+| September 2  | MVP / More CSS                                         | Incomplete |
+| September 3  | Presentations                                          | Incomplete |
 
 ## Priority Matrix
 
@@ -56,9 +56,6 @@ Include a full list of features that have been prioritized based on the `Time an
 | Media query                           |    H     |      3hrs      |      hrs      |     hrs     |
 | Display books, book title, book cover |    H     |      3hrs      |      hrs      |     hrs     |
 | Responsive new book results           |    H     |     1.5hrs     |      hrs      |     hrs     |
-| Total                                 |    H     |      hrs       |      hrs      |     hrs     |
-| Total                                 |    H     |      3hrs      |      hrs      |     hrs     |
-| Total                                 |    H     |      3hrs      |      hrs      |     hrs     |
 | Total                                 |    H     |     20hrs      |      hrs      |     hrs     |
 
 ## Code Snippet
