@@ -10,9 +10,9 @@ https://openlibrary.org/search.json
 "numFound": 0,
 "start": 0,
 "numFoundExact": true,
-"docs": [],
+"docs": [ ],
 "num_found": 0,
-"q": "",
+"q": " ",
 "offset": null
 }
 
@@ -35,11 +35,11 @@ https://openlibrary.org/search.json
 
 | Day          | Deliverable                                            | Status     |
 | ------------ | ------------------------------------------------------ | ---------- |
-| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Complete |
-| August 30    | Project Approval                                       | Complete |
+| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Complete   |
+| August 30    | Project Approval                                       | Complete   |
 | August 30-31 | Core Application Structure (HTML, CSS, etc.)           | Incomplete |
 | September 1  | Pseudocode / actual code/ MVP/ Initial Clickable Model | Incomplete |
-| September 2  | MVP / More CSS / Post MVP                                        | Incomplete |
+| September 2  | MVP / More CSS / Post MVP                              | Incomplete |
 | September 3  | Presentations                                          | Incomplete |
 
 ## Priority Matrix
