@@ -42,7 +42,7 @@ https://openlibrary.org/search.json
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix. Link this image in a similar manner to your wireframes
+![](images/Screen%20Shot%202021-08-29%20at%208.03.41%20PM.png)
 
 ## Timeframes
 
