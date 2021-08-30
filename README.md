@@ -22,7 +22,7 @@ https://openlibrary.org/search.json
 
 ### MVP
 
-- Allows users to search for a book by title or author
+- Allows users to search for a book by title, author or publisher
 
 ### POST MVP
 
