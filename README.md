@@ -23,9 +23,11 @@ https://openlibrary.org/search.json
 ### MVP
 
 - Allows users to search for a book by title, author or publisher
+- Responsive design
 
 ### POST MVP
 
+- Add second API
 - Allows users to see the book reviews
 - Lets users know if the book is accessible from a library near them or where can the book be purchased
 
@@ -33,11 +35,11 @@ https://openlibrary.org/search.json
 
 | Day          | Deliverable                                            | Status     |
 | ------------ | ------------------------------------------------------ | ---------- |
-| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Incomplete |
-| August 30    | Project Approval                                       | Incomplete |
+| August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Complete |
+| August 30    | Project Approval                                       | Complete |
 | August 30-31 | Core Application Structure (HTML, CSS, etc.)           | Incomplete |
 | September 1  | Pseudocode / actual code/ MVP/ Initial Clickable Model | Incomplete |
-| September 2  | MVP / More CSS                                         | Incomplete |
+| September 2  | MVP / More CSS / Post MVP                                        | Incomplete |
 | September 3  | Presentations                                          | Incomplete |
 
 ## Priority Matrix
