@@ -22,7 +22,7 @@ https://openlibrary.org/search.json
 
 ### MVP
 
-- Allows users to search for a book by title, author or publisher
+- Allows users to search for a book by title or author
 - Responsive design
 
 ### POST MVP
@@ -37,9 +37,9 @@ https://openlibrary.org/search.json
 | ------------ | ------------------------------------------------------ | ---------- |
 | August 27-29 | Prompt / Wireframes / Priority Matrix / Timeframes     | Complete   |
 | August 30    | Project Approval                                       | Complete   |
-| August 30-31 | Core Application Structure (HTML, CSS, etc.)           | Incomplete |
-| September 1  | Pseudocode / actual code/ MVP/ Initial Clickable Model | Incomplete |
-| September 2  | MVP / More CSS / Post MVP                              | Incomplete |
+| August 30-31 | Core Application Structure (HTML, CSS, etc.)           | Complete   |
+| September 1  | Pseudocode / actual code/ MVP/ Initial Clickable Model | Complete   |
+| September 2  | More CSS & MVP                                         | Complete   |
 | September 3  | Presentations                                          | Incomplete |
 
 ## Priority Matrix
@@ -48,26 +48,30 @@ https://openlibrary.org/search.json
 
 ## Timeframes
 
-| Component                             | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML structure                        |    H     |     1.5hrs     |      hrs      |     hrs     |
-| Responsive API data                   |    H     |      3hrs      |      hrs      |     hrs     |
-| CSS                                   |    H     |      4hrs      |      hrs      |     hrs     |
-| Functional search bar                 |    H     |      2hrs      |      hrs      |     hrs     |
-| Functional search button              |    H     |      2hrs      |      hrs      |     hrs     |
-| Media query                           |    H     |      3hrs      |      hrs      |     hrs     |
-| Display books, book title, book cover |    H     |      3hrs      |      hrs      |     hrs     |
-| Responsive new book results           |    H     |     1.5hrs     |      hrs      |     hrs     |
-| Total                                 |    H     |     20hrs      |      hrs      |     hrs     |
+| Component                              | Priority | Estimated Time | Time Invested | Actual Time |
+| -------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| HTML structure                         |    H     |     1.5hrs     |     2hrs      |    2hrs     |
+| Responsive API data                    |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Retrieving data from API               |    H     |      3hrs      |     3hrs      |    3hrs     |
+| CSS                                    |    H     |      4hrs      |     5hrs      |    5hrs     |
+| Functional search bar                  |    H     |      2hrs      |      1hr      |     1hr     |
+| Functional search button               |    H     |      2hrs      |      1hr      |     1hr     |
+| Media query                            |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Display books, book title, author name |    H     |      3hrs      |     5hrs      |    5hrs     |
+| Show book covers                       |    H     |      3hrs      |     6hrs      |    6hrs     |
+| Responsive new book results            |    H     |     1.5hrs     |     3hrs      |    3hrs     |
+| Total                                  |    H     |     26hrs      |     31hrs     |    31hrs    |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+This if statement lets an image icon appear on the books that display no covers on the page
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+if (book.isbn[0] !== img.src) {
+      let newImg = document.createElement('img');
+      newImg.src = 'https://image.shutterstock.com/image-illustration/picture-icon-no-image-symbol-260nw-1572613234-S.jpg';
+      list.append(newImg);
+    }
 ```
 
 ## Change Log
