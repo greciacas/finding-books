@@ -7,7 +7,7 @@ function handleClick() {
   findBooks(input.value);
 }
 
-const API= 'https://openlibrary.org/search.json?q=';
+const API= 'http://openlibrary.org/search.json?q=';
 async function findBooks(bookName) {
   try {
     let res = await axios.get(`${API}${bookName}`);
@@ -34,7 +34,7 @@ function showBooks(books) {
 
     let img = document.createElement('img');
     console.log(book.isbn[0]);
-    img.src = `https://covers.openlibrary.org/b/isbn/${book.isbn[0]}-M.jpg`
+    img.src = `http://covers.openlibrary.org/b/isbn/${book.isbn[0]}-M.jpg`
     list.append(img);
 
     if (book.isbn[0] !== img.src) {
