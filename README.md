@@ -2,6 +2,8 @@
 
 #### An app that helps find a book by title, author and more.
 
+[link to depoyled site](https://greciacas.github.io/finding-books/)
+
 ## API and Data Sample
 
 https://openlibrary.org/search.json
